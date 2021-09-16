@@ -1,0 +1,41 @@
+False
+  1 2 3
+1 : : :
+2 : : :
+3 : : :
+Player 1 'x' (space-separated x y like 2 1) : False
+  1 2 3
+1 : : :
+2 : x :
+3 : : :
+Player 2 'o' : False
+  1 2 3
+1 : : :
+2 : x :
+3 : : o
+Player 1 'x' : False
+  1 2 3
+1 x : :
+2 : x :
+3 : : o
+Player 2 'o' : False
+  1 2 3
+1 x o :
+2 : x :
+3 : : o
+Player 1 'x' : False
+  1 2 3
+1 x o :
+2 : x :
+3 x : o
+Player 2 'o' : False
+  1 2 3
+1 x o :
+2 o x :
+3 x : o
+Player 1 'x' : [0]
+  1 2 3
+1 x o x
+2 o x :
+3 x : o
+Player 1 has won.
